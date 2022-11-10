@@ -1,0 +1,193 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* ********************** */
+/* Contenedor principal */
+/* ********************** */
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FFFFFF;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.nombre {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* ********************** */
+/* Descripción de las habilidades */
+/* ********************** */
+
+.descripcion {
+    margin-bottom: 40px;
+}
+
+.texto-descripcion {
+    color: #595959;
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* ********************** */
+/* Secciones principales */
+/* ********************** */
+
+.titulo-seccion-principal {
+    margin-top: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+/* ********************** */
+/* Información general */
+/* ********************** */
+.informacion-general {
+    padding: 100px 88px;
+}
+
+/* ********************** */
+/* Profesión */
+/* ********************** */
+.profesion {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* ********************** */
+/* Proyectos realizados */
+/* ********************** */
+.enlace-proyectos {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lista-proyectos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+}
+
+.puntos-proyectos {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+/* ********************** */
+/* Experiencia laboral */
+/* ********************** */
+.periodo-empresa {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.puesto-empresa {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+
+.texto-naranja {
+    color: #FB6D3A;
+}
+
+.lista-experiencia {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+}
+
+/* ********************** */
+/* Barra lateral - Contacto */
+/* ********************** */
+
+.barra-lateral-contacto {
+    background-color: #1E2939;
+    padding: 40px 0;
+}
+
+.contacto-info {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.titulo-lateral {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+.contactos,
+.habilidades-tecnicas,
+.habilidades-blandas {
+    margin-left: 40px;
+}
+
+/* ********************** */
+/* sección contactos */
+/* ********************** */
+
+.tipo-contacto {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+/* ********************** */
+/* sección de lista */
+/* ********************** */
+.lista-lateral {
+    padding-left: 17px;
+}
+
+.lista-lateral>li {
+    color: #FB6D3A;
+}
+
+.elemento-lista-lateral {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
